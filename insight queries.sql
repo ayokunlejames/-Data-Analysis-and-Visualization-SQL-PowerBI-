@@ -32,7 +32,7 @@ SELECT
 FROM source
 ;
 
-——————————————————————————————————————————————————————————————
+
 /* 2. This query aggregates number of donors, the minimum total donation value, the maximum total donation value, 
 and average donation value by distinct donation frequency. */
 
@@ -48,7 +48,7 @@ GROUP BY 1
 ORDER BY 2 DESC
 ;
 
-——————————————————————————————————————————————————————————————
+
 /* 3. Donor churn: This is the percentage of donors who stopped donating. This percentage may be estimated by the 
 number of donors who donated to the charity just once, as opposed to committing. The query also extracts the percentage 
 of total donation value that is lost to those donors. */
